@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class BackgroundScroll : MonoBehaviour
 {
+    [Header("Settings")]
+    [Tooltip("How fast should the texture scroll?")]
+    public float scrollSpeed;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
